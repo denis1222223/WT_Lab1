@@ -16,5 +16,4 @@ public class MainTest extends TestCase {
 
         assertEquals(1, count);
     }
-
 }

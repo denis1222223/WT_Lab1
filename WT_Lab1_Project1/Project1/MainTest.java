@@ -1,6 +1,6 @@
-package Lab1;
+package Project1;
 import junit.framework.TestCase;
-import static Lab1.Main.*;
+import static Project1.Main.*;
 
 public class MainTest extends TestCase {
 

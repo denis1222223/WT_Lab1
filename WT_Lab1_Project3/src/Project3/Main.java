@@ -1,6 +1,7 @@
 package Project3;
 import static java.lang.Math.round;
 import static java.lang.Math.tan;
+import static java.lang.Math.tanh;
 
 public class Main {
 
@@ -33,7 +34,7 @@ public class Main {
     }
 
     public static double[] generateArguments(double a, double b, double h) {
-        int count = (int)round((b-a) / h);
+        int count = (int)Math.floor((b-a) / h) + 1;
         double[] arguments = new double[count];
         for (int i=0; i<count; i++){
             arguments[i] = a;

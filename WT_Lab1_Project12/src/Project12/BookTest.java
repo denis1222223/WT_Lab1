@@ -21,4 +21,10 @@ public class BookTest extends TestCase {
         assertEquals(true, equal);
     }
 
+    public void testClone() throws Exception {
+        Book book = new Book("Idiot", "F.M.Dostoyevsky", 100, 1868);
+        boolean equal = book.equals( book.clone() );
+        assertEquals(true, equal);
+    }
+
 }

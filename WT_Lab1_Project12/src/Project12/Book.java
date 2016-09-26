@@ -32,4 +32,9 @@ public class Book {
         }
         return false;
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return new Book(this.title, this.author, this.price, this.edition);
+    }
 }

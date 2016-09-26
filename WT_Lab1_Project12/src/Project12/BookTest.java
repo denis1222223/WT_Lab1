@@ -4,9 +4,10 @@ import junit.framework.TestCase;
 
 
 public class BookTest extends TestCase {
+
     public void testToString() throws Exception {
         Book book = new Book("Idiot", "F.M.Dostoyevsky", 100, 1868);
-        assertEquals("Idiot F.M.Dostoyevsky 100 1868", book.toString());
+        assertEquals("Book Idiot F.M.Dostoyevsky 100 1868", book.toString());
     }
 
     public void testHashCode() throws Exception {

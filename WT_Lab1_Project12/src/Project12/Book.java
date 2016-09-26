@@ -1,10 +1,10 @@
 package Project12;
 
 public class Book implements Comparable<Book>{
-    protected String title;
-    protected String author;
-    protected int price;
-    protected static int edition;
+    public String title;
+    public String author;
+    public Integer price;
+    public static int edition;
 
     public Integer isbn;
 
@@ -37,7 +37,7 @@ public class Book implements Comparable<Book>{
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException {
         return new Book(this.title, this.author, this.price, this.edition);
     }
 

@@ -1,5 +1,4 @@
-package Project12;
-
+import Project12.Book;
 import junit.framework.TestCase;
 import static org.junit.Assert.*;
 

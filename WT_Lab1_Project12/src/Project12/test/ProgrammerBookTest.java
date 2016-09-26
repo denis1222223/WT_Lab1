@@ -1,5 +1,5 @@
-package Project12;
-
+import Project12.Book;
+import Project12.ProgrammerBook;
 import junit.framework.TestCase;
 
 public class ProgrammerBookTest extends TestCase {

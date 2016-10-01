@@ -1,5 +1,5 @@
-package Project9;
-
+import Project9.Ball;
+import Project9.Basket;
 import junit.framework.TestCase;
 
 public class BasketTest extends TestCase {

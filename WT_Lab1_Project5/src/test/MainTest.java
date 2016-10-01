@@ -1,5 +1,3 @@
-package Project5;
-
 import junit.framework.TestCase;
 
 import java.util.ArrayList;

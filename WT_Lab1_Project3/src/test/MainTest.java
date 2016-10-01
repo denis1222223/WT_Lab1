@@ -1,4 +1,3 @@
-package Project3;
 import junit.framework.TestCase;
 
 import static Project3.Main.generateArguments;

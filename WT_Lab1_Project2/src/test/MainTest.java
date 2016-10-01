@@ -1,4 +1,3 @@
-package Project2;
 import junit.framework.TestCase;
 import java.awt.*;
 import static Project2.Main.isContains;

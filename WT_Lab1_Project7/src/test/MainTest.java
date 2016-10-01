@@ -1,5 +1,3 @@
-package Project7;
-
 import junit.framework.TestCase;
 import static org.junit.Assert.*;
 import static Project7.Main.shellSort;

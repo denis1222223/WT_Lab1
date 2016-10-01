@@ -1,4 +1,3 @@
-package Project1;
 import junit.framework.TestCase;
 import static Project1.Main.*;
 
